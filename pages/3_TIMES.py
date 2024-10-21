@@ -42,7 +42,5 @@ st.dataframe(tabela_clube,
                                                            min_value=0,
                                                            max_value=tabela_clube["Wage(£)"].max()
                                                            )
-                 
                 }
-             
 )

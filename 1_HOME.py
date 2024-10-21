@@ -32,6 +32,7 @@ st.markdown(
 )
 
 # carregar dados
+@st.cache_data
 def carregar_dados():
     
     # importar
@@ -47,7 +48,8 @@ def carregar_dados():
 
     
 # atribuir df a session state dados
-st.session_state["dados"] = carregar_dados()
+dados = carregar_dados()
+st.session_state["dados"] = dados
     
 
 
