@@ -26,7 +26,7 @@ st.image(info_clube.iloc[0]["Club Logo"])
 st.markdown(f"### {info_clube.iloc[0]["Club"]}")
 
 # tabela colunas
-colunas_selecionadas = ["Age", "Nationality", "Flag", "Overall", "Club", "Value(£)", "Wage(£)", "Year_Joined", "Contract Valid Until"]
+colunas_selecionadas = ["Age", "Nationality", "Flag", "Overall", "Wage(£)", "Value(£)", "Year_Joined", "Contract Valid Until"]
 tabela_clube = info_clube[colunas_selecionadas]
 
 # exibir tabela
