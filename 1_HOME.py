@@ -36,7 +36,7 @@ st.markdown(
 def carregar_dados():
     
     # importar
-    df = pd.read_csv("datasets\CLEAN_FIFA23_official_data.csv", index_col=0)
+    df = pd.read_csv("datasets/CLEAN_FIFA23_official_data.csv", index_col=0)
     
     # excluir jogadores sem registro de valor
     df = df[df["Value(£)"] > 0]
@@ -51,5 +51,6 @@ def carregar_dados():
 dados = carregar_dados()
 st.session_state["dados"] = dados
     
-
+import os
+os.getcwd()
 
