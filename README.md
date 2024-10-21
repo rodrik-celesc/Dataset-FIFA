@@ -1,5 +1,5 @@
 # FIFA 2023
-Dashboard com informações de jogadores e clubes (base de dados kaggle)
+Dashboard com informações de jogadores e clubes
 
-Site:
+Site base de dados:
 https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database
